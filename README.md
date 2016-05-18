@@ -9,7 +9,7 @@
 
 ## Demo1
 
-![](https://github.com/epirus/i/blob/master/rio-demo1.gif)
+![](https://raw.githubusercontent.com/epirus/i/master/rio-demo.gif)
 
 ### Use Tab to autocomplete keywords && Shift to preview the webpage
 ## Demo2
