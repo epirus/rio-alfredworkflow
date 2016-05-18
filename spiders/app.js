@@ -52,7 +52,7 @@ module.exports = {
             title: 'ios 应用降价',
             icon: 'app.jpg',
             url: 'http://appshopper.com/prices/',
-            arg:'',
+            arg:'http://appshopper.com/prices/',
             autocomplete: ' app ios',
             valid: 'yes',
             uid: 'app_ios'
@@ -61,7 +61,7 @@ module.exports = {
             title: 'mac 应用降价',
             icon: 'app.jpg',
             url: 'http://appshopper.com/mac/prices/',
-            arg:'',
+            arg:'http://appshopper.com/mac/prices/',
             autocomplete: ' app mac',
             valid: 'no',
             uid: 'app_mac'
