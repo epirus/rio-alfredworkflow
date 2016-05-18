@@ -1,9 +1,14 @@
 # Rio -> Read In One
 ### Read Hot News In Alfred
+
 # Requirement
 - node(version>5.0)->Installing->brew install node
 - Git
 - how to install node?
+
+# Download 
+
+[Download](https://github.com/epirus/rio-alfredworkflow/files/270390/rio.zip)
 
 # Features
 
@@ -17,6 +22,7 @@
 ![](https://github.com/epirus/i/blob/master/rio-demo1.gif)
 
 ### Use Tab to autocomplete keywords && Shift to preview the webpage
+
 # News List
 
 - V2Ex
