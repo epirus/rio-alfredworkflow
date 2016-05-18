@@ -26,10 +26,6 @@ module.exports = {
         });
     },
     ' ->update':function(){
-      if(fs.existsSync('./.git/')){
-        exec(`git pull origin master`)
-      }else{
-        exec(`git init&&git remote add origin git@github.com:epirus/rio-alfred-workflow.git&&git pull origin master`)
-      }
+        exec(`git pull origin master  > /dev/null 2>&1 &`)
     }
 }
