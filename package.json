@@ -1,0 +1,21 @@
+{
+  "name": "user.workflow.2A8DBD60-ACEF-49F0-982F-E373D7347F52",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "alfred-item": "^1.0.1",
+    "cheerio": "^0.20.0",
+    "fuzzaldrin": "^2.1.0",
+    "iconv-lite": "^0.4.13",
+    "request": "^2.72.0",
+    "scrape-it": "^3.0.1",
+    "tough-cookie-filestore": "0.0.1"
+  }
+}

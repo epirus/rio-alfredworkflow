@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.epirus.rio</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>556A94A6-EFA5-46E4-92C2-69B3D89FEFFF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E64E3FF-DA98-432F-AADA-D272DD46379B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>epirus</string>
+	<key>description</key>
+	<string>Read in One</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Rio</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>keyword</key>
+				<string>rio</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Rio is working~</string>
+				<key>script</key>
+				<string>/usr/local/bin/node &lt;&lt;-'CODE'
+try {
+
+  require('./main')("{query}")
+
+} catch (e) { 
+
+	console.log(e.message);
+
+}
+
+CODE
+</string>
+				<key>subtext</key>
+				<string>Read In One</string>
+				<key>title</key>
+				<string>Read In One</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>556A94A6-EFA5-46E4-92C2-69B3D89FEFFF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0E64E3FF-DA98-432F-AADA-D272DD46379B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0E64E3FF-DA98-432F-AADA-D272DD46379B</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>556A94A6-EFA5-46E4-92C2-69B3D89FEFFF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/epirus</string>
+</dict>
+</plist>
