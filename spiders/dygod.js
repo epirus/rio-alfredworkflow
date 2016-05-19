@@ -19,12 +19,12 @@ var scrape = function(url, page) {
             decodeEntities: false
         })
         var items = []
-        $('.tbspan').map(function(index, ele) {
+        $('.co_content8 table').map(function(index, ele) {
             items[index] = {
-                title: $(ele).find('.ulink').text(),
+                title: $(ele).find('tr:nth-child(2) > td:nth-child(2) a').slice(-1).text(),
                 subtitle: $(ele).find('font').text(),
                 icon: 'dygod.jpg',
-                arg: 'http://www.ygdy8.net/' + $(ele).find('.ulink').attr('href')
+                arg: 'http://www.ygdy8.net/' + $(ele).find('tr:nth-child(2) > td:nth-child(2) a').slice(-1).attr('href')
             }
         })
         log(items)

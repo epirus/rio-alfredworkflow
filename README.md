@@ -4,9 +4,9 @@
 # Requirement
 
 - node(version>5.0)->Installing->brew install node
-- Git
+- Git->For update plugin from github
 
-# Download 
+# Download
 
 [Download](https://github.com/epirus/rio-alfredworkflow/files/270390/rio.zip)
 
@@ -16,7 +16,7 @@
 
 ![](https://raw.githubusercontent.com/epirus/i/master/rio-demo.gif)
 
-### Use taab to autocomplete keywords && Shift to preview the webpage
+### Use Tab to autocomplete keywords && Shift to preview the webpage
 ## Demo2
 
 ![](https://github.com/epirus/i/blob/master/rio-demo1.gif)
@@ -39,3 +39,10 @@
 # todo
 
 - XiTuJueJin
+- Startup News  next page
+- ZhiHu Paper
+- Thuner Download
+
+# bug
+
+- ~~dygod->preview->url->error~~
