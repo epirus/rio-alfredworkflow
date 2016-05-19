@@ -41,8 +41,13 @@
 - XiTuJueJin
 - Startup News  next page
 - ZhiHu Paper
-- Thuner Download
+- Thuner Download Local
+- Thuner Download Remote
+- GitHub Update
 
 # bug
 
 - ~~dygod->preview->url->error~~
+
+# Contributor
+- JoeyBlue(http://joeyio.com) -> ThunderDownload Script
