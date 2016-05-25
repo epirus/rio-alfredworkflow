@@ -10,5 +10,6 @@ module.exports = [
  'sn',
  'kf',
  'qb',
- 'command'
+ 'command',
+ 'xt'
 ]

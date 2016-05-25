@@ -18,10 +18,12 @@ module.exports = function(query) {
                 decodeEntities: false
             })
             var thunderUrl = $('#Zoom a').attr('href')
+            console.log(thunderUrl)
             exec(`osascript ./thunder.scpt ${thunderUrl}`)
         })
     }
 
+    //mp4ba  download
     if (query.indexOf('mp4ba') > -1) {
         request({
             url: query,
@@ -33,6 +35,7 @@ module.exports = function(query) {
                 decodeEntities: false
             })
             var thunderUrl = $('#magnet').attr('href')
+            console.log(thunderUrl)
             exec(`osascript ./thunder.scpt ${thunderUrl}`)
         })
 

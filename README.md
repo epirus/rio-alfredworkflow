@@ -35,15 +35,18 @@
 - JianDan
 - KaiFaZheTouTiao
 - QiuShiBaiKe
+- XiTuJueJin
 
 # todo
 
-- XiTuJueJin
+- ~~XiTuJueJin~~
 - Startup News  next page
+- ~~JianDan Next Page~~
 - ZhiHu Paper
-- Thuner Download Local
+- ~~Thuner Download Local~~ -> add modifyer to control different downloading platform
+- ~~Copy Url To CopyBoard~~
 - Thuner Download Remote
-- GitHub Update
+- GitHub Update Command
 
 # bug
 

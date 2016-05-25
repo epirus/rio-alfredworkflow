@@ -11,14 +11,14 @@ var scrape = function(url) {
                         return this.query
                     }
                 },
-                title: ".repo-list-name>a",
-                subtitle: {
-                    selector: ".repo-list-meta",
-                    convert: function(ele) {
-                        var whichLanguage = ele.replace(/\s/g, '').split('•')
-                        return whichLanguage.length === 3 ? whichLanguage[0] : '';
-                    }
+                title: {
+                  selector:".repo-list-name>a",
+                  attr:'href',
+                  convert:function(x){
+                    return x.slice(1)
+                  }
                 },
+                subtitle:".repo-list-description",
                 icon: {
                     convert: function() {
                         return "gt.jpg"
@@ -37,7 +37,7 @@ var scrape = function(url) {
                     }
                 },
                 cid: {
-                    convert: function(ele) {
+                    convert: function() {
                         return 0
                     }
                 }

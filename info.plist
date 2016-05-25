@@ -27,6 +27,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>E6C7831F-96C8-4629-B44D-FE75A101D93A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A7911D46-D121-43B5-8380-E866EFF508F2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>epirus</string>
@@ -121,6 +132,21 @@ CODE
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A7911D46-D121-43B5-8380-E866EFF508F2</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>
@@ -146,6 +172,11 @@ CODE
 			<real>170</real>
 		</dict>
 		<key>556A94A6-EFA5-46E4-92C2-69B3D89FEFFF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>A7911D46-D121-43B5-8380-E866EFF508F2</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
