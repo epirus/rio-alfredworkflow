@@ -18,14 +18,6 @@
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>16FC3479-3D05-48F0-90EB-F5DF8F311950</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
 		</array>
 		<key>E6C7831F-96C8-4629-B44D-FE75A101D93A</key>
 		<array>
@@ -49,6 +41,37 @@
 	<string>Rio</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>/usr/local/bin/node &lt;&lt;-'CODE'
+try {
+
+  require('./thunderDownload.js')("{query}")
+
+} catch (e) { 
+
+	console.log(e.message);
+
+}
+
+CODE
+</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E6C7831F-96C8-4629-B44D-FE75A101D93A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -101,37 +124,6 @@ CODE
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>/usr/local/bin/node &lt;&lt;-'CODE'
-try {
-
-  require('./thunderDownload.js')("{query}")
-
-} catch (e) { 
-
-	console.log(e.message);
-
-}
-
-CODE
-</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E6C7831F-96C8-4629-B44D-FE75A101D93A</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -144,33 +136,11 @@ CODE
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>16FC3479-3D05-48F0-90EB-F5DF8F311950</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>16FC3479-3D05-48F0-90EB-F5DF8F311950</key>
-		<dict>
-			<key>ypos</key>
-			<real>170</real>
-		</dict>
 		<key>556A94A6-EFA5-46E4-92C2-69B3D89FEFFF</key>
 		<dict>
 			<key>ypos</key>

@@ -11,5 +11,6 @@ module.exports = [
  'kf',
  'qb',
  'command',
- 'xt'
+ 'xt',
+ 'zh'
 ]

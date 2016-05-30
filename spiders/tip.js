@@ -91,7 +91,16 @@ var init = [{
         autocomplete: ' xt ',
         uid: 'xitujuejin',
         counter: 0
-    }
+    }, {
+        title: '知乎日报',
+        subtitle: '以独有的方式为你提供最高质、最深度、最有收获的阅读体验',
+        icon: 'zh.jpg',
+        arg: '',
+        autocomplete: ' zh ',
+        uid: 'zhihuribao',
+        counter: 0
+    },
+
 ]
 
 var fileExists = function(filePath) {
@@ -104,8 +113,9 @@ var fileExists = function(filePath) {
 var filePath = './cache/init'
 var initMenu = function(message) {
     var message = JSON.stringify(message)
-    var filePath = './cache/init'
-    if (fileExists(filePath)) {} else {
+    if (fileExists(filePath)) {
+        //todo ->fix the init problem when add the new service
+    } else {
         fs.writeFile(filePath, message, function() {})
     }
 }

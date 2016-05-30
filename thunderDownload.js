@@ -21,10 +21,7 @@ module.exports = function(query) {
             console.log(thunderUrl)
             exec(`osascript ./thunder.scpt ${thunderUrl}`)
         })
-    }
-
-    //mp4ba  download
-    if (query.indexOf('mp4ba') > -1) {
+    }else if (query.indexOf('mp4ba') > -1) {
         request({
             url: query,
             headers: {
@@ -38,6 +35,7 @@ module.exports = function(query) {
             console.log(thunderUrl)
             exec(`osascript ./thunder.scpt ${thunderUrl}`)
         })
-
+    }else{
+      exec(`open ${query}`)
     }
 }
