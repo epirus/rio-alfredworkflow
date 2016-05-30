@@ -8,7 +8,7 @@
 
 # Download
 
-[Download](https://github.com/epirus/rio-alfredworkflow/files/270390/rio.zip)
+[Download](https://github.com/epirus/rio-alfredworkflow/archive/0.0.2.zip)
 
 # Features
 
@@ -36,17 +36,18 @@
 - KaiFaZheTouTiao
 - QiuShiBaiKe
 - XiTuJueJin
+- Daily Zhi Hu 
 
 # todo
 
 - ~~XiTuJueJin~~
-- Startup News  next page
 - ~~JianDan Next Page~~
-- ZhiHu Paper
+- ~~ZhiHu Paper~~
 - ~~Thuner Download Local~~ -> add modifyer to control different downloading platform
 - ~~Copy Url To CopyBoard~~
-- Thuner Download Remote
-- GitHub Update Command
+- ~GitHub Update Command~
+- Startup News  next page (later maybe remove)
+- Thuner Download Remote (later maybe remove)
 
 # bug
 
