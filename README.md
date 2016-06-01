@@ -8,7 +8,7 @@
 
 # Download
 
-[Download](https://github.com/epirus/rio-alfredworkflow/archive/0.0.2.zip)
+[Download](https://github.com/epirus/rio-alfredworkflow/files/292493/rio.zip)
 
 # Features
 
