@@ -19,7 +19,7 @@ module.exports = function(query) {
             })
             var thunderUrl = $('#Zoom a').attr('href')
             console.log(thunderUrl)
-            exec(`osascript ./thunder.scpt ${thunderUrl}`)
+            exec(`open ${thunderUrl}`)
         })
     }else if (query.indexOf('mp4ba') > -1) {
         request({
@@ -33,9 +33,10 @@ module.exports = function(query) {
             })
             var thunderUrl = $('#magnet').attr('href')
             console.log(thunderUrl)
-            exec(`osascript ./thunder.scpt ${thunderUrl}`)
+            exec(`open ${thunderUrl}`)
         })
     }else{
-      exec(`open ${query}`)
+      console.log(query)
+      exec(`open "${query}"`)
     }
 }

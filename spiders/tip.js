@@ -99,8 +99,15 @@ var init = [{
         autocomplete: ' zh ',
         uid: 'zhihuribao',
         counter: 0
-    },
-
+    }, {
+        title: '天天美剧',
+        subtitle: '天天美剧网提供最新的美剧高清看',
+        icon: '天天美剧.png',
+        arg: '',
+        autocomplete: ' 天天美剧 ',
+        uid: '天天美剧',
+        counter: 0
+    }
 ]
 
 var fileExists = function(filePath) {

@@ -12,5 +12,6 @@ module.exports = [
  'qb',
  'command',
  'xt',
- 'zh'
+ 'zh',
+ '天天美剧'
 ]
