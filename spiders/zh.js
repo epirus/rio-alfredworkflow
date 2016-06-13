@@ -7,35 +7,15 @@ var scrape = function(url) {
     }, function(error, response, body) {
         var items = []
         var data = JSON.parse(body)
-        if (url.indexOf('latest') > -1) {
-            data.stories.map(function(item) {
-                items.push({
-                    title: item.title,
-                    subtitle: '',
-                    icon: 'zh.jpg',
-                    arg: 'http://daily.zhihu.com/story/' + item.id
-                })
+        data.stories.map(function(item) {
+            items.push({
+                title: item.title,
+                subtitle: '',
+                icon: 'zh.jpg',
+                arg: 'http://daily.zhihu.com/story/' + item.id
             })
-            data.top_stories.map(function(item) {
-                items.push({
-                    title: item.title,
-                    subtitle: '',
-                    icon: 'zh.jpg',
-                    arg: 'http://daily.zhihu.com/story/' + item.id
-                })
-            })
-            log(items)
-        } else {
-            data.stories.map(function(item) {
-                items.push({
-                    title: item.title,
-                    subtitle: '',
-                    icon: 'zh.jpg',
-                    arg: 'http://daily.zhihu.com/story/' + item.id
-                })
-            })
-            log(items)
-        }
+        })
+        log(items)
     })
 }
 module.exports = {
