@@ -21,7 +21,7 @@ var scrape = function(url) {
                 subtitle:".repo-list-description",
                 icon: {
                     convert: function() {
-                        return "gt.jpg"
+                        return "gt.png"
                     }
                 },
                 uid: {
@@ -54,7 +54,7 @@ module.exports = {
     'gt': {
         ' gt all': {
             title: 'All',
-            icon: 'gt.jpg',
+            icon: 'gt.png',
             url: 'https://github.com/trending/',
             autocomplete: ' gt all',
             arg:'',
@@ -63,7 +63,7 @@ module.exports = {
         },
         ' gt js': {
             title: 'JavaScript',
-            icon: 'gt.jpg',
+            icon: 'gt.png',
             url: 'https://github.com/trending/javascript',
             autocomplete: ' gt js',
             valid: 'yes',
@@ -72,7 +72,7 @@ module.exports = {
         },
         ' gt swift': {
             title: 'Swift',
-            icon: 'gt.jpg',
+            icon: 'gt.png',
             url: 'https://github.com/trending/swift',
             autocomplete: ' gt js',
             valid: 'yes',
@@ -81,7 +81,7 @@ module.exports = {
         },
         ' gt go': {
             title: 'Go',
-            icon: 'gt.jpg',
+            icon: 'gt.png',
             url: 'https://github.com/trending/go',
             autocomplete: ' gt go',
             valid: 'yes',
@@ -90,7 +90,7 @@ module.exports = {
         },
         ' gt java': {
             title: 'Java',
-            icon: 'gt.jpg',
+            icon: 'gt.png',
             url: 'https://github.com/trending/java',
             autocomplete: ' gt java',
             valid: 'yes',
@@ -99,7 +99,7 @@ module.exports = {
         },
         ' gt python': {
             title: 'Python',
-            icon: 'gt.jpg',
+            icon: 'gt.png',
             url: 'https://github.com/trending/python',
             autocomplete: ' gt python',
             valid: 'yes',

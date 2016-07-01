@@ -14,7 +14,7 @@ var scrape = function(url, page) {
                 items[index] = {
                     title: $(ele).find('h2 a').text(),
                     subtitle: $(ele).find('strong > a').text(),
-                    icon: 'jiandan.jpg',
+                    icon: 'jiandan.png',
                     uid: '',
                     arg: $(ele).find('h2 a').attr('href')
                 }
@@ -26,7 +26,7 @@ var scrape = function(url, page) {
                 items[index] = {
                     title: $(ele).find('.title2').text(),
                     subtitle:'',
-                    icon: 'jiandan.jpg',
+                    icon: 'jiandan.png',
                     arg: $(ele).find('.title2 a').attr('href')
                 }
             })
@@ -39,7 +39,7 @@ module.exports = {
     'jiandan': {
         ' jiandan latest': {
             title: '煎蛋-首页',
-            icon: 'jiandan.jpg',
+            icon: 'jiandan.png',
             url: 'http://jandan.net/page/',
             arg: '',
             autocomplete: ' jiandan latest',

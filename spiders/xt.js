@@ -14,7 +14,7 @@ var scrape = function(url, page, category) {
             items[index] = {
                 title: ele.title,
                 subtitle: ele.content,
-                icon: 'juejin.jpg',
+                icon: 'juejin.png',
                 uid: '',
                 arg: ele.url
             }
@@ -26,7 +26,7 @@ module.exports = {
     'xt': {
         ' xt latest': {
             title: '全部',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt latest',
@@ -35,7 +35,7 @@ module.exports = {
         },
         ' xt frontend': {
             title: '前端',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt frontend',
@@ -44,7 +44,7 @@ module.exports = {
         },
         ' xt android': {
             title: 'Android',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt android',
@@ -53,7 +53,7 @@ module.exports = {
         },
         ' xt design': {
             title: '设计',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt design',
@@ -62,7 +62,7 @@ module.exports = {
         },
         ' xt ios': {
             title: 'Ios',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt ios',
@@ -71,7 +71,7 @@ module.exports = {
         },
         ' xt backend': {
             title: '后端',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt backend',
@@ -80,7 +80,7 @@ module.exports = {
         },
         ' xt product': {
             title: '产品',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt product',
@@ -89,7 +89,7 @@ module.exports = {
         },
         ' xt freebie': {
             title: '工具',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt freebie',
@@ -98,7 +98,7 @@ module.exports = {
         },
         ' xt article': {
             title: '阅读',
-            icon: 'juejin.jpg',
+            icon: 'juejin.png',
             url: 'https://api.leancloud.cn/1.1/classes/Entry',
             arg: '',
             autocomplete: ' xt article',

@@ -11,7 +11,7 @@ var scrape = function(url) {
             items.push({
                 title: item.title,
                 subtitle: '',
-                icon: 'zh.jpg',
+                icon: 'zh.png',
                 arg: 'http://daily.zhihu.com/story/' + item.id
             })
         })
@@ -22,7 +22,7 @@ module.exports = {
     'zh': {
         ' zh latest': {
             title: '知乎最新',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/news/latest',
             arg: '',
             autocomplete: ' zh latest',
@@ -31,7 +31,7 @@ module.exports = {
         },
         ' zh xl': {
             title: '日常心理学',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/13',
             arg: '',
             autocomplete: ' zh xl',
@@ -40,7 +40,7 @@ module.exports = {
         },
         ' zh tj': {
             title: '用户推荐日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/12',
             arg: '',
             autocomplete: ' zh tj',
@@ -49,7 +49,7 @@ module.exports = {
         },
         ' zh dy': {
             title: '电影日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/3',
             arg: '',
             autocomplete: ' zh dy',
@@ -59,7 +59,7 @@ module.exports = {
 
         ' zh wl': {
             title: '不许无聊',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/11',
             arg: '',
             autocomplete: ' zh wl',
@@ -69,7 +69,7 @@ module.exports = {
 
         ' zh sj': {
             title: '设计日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/4',
             arg: '',
             autocomplete: ' zh sj',
@@ -78,7 +78,7 @@ module.exports = {
         },
         ' zh gs': {
             title: '大公司日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/5',
             arg: '',
             autocomplete: ' zh gs',
@@ -87,7 +87,7 @@ module.exports = {
         },
         ' zh cj': {
             title: '财经日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/6',
             arg: '',
             autocomplete: ' zh cj',
@@ -96,7 +96,7 @@ module.exports = {
         },
         ' zh aq': {
             title: '互联网安全',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/10',
             arg: '',
             autocomplete: ' zh aq',
@@ -105,7 +105,7 @@ module.exports = {
         },
         ' zh yx': {
             title: '开始游戏',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/2',
             arg: '',
             autocomplete: ' zh yx',
@@ -114,7 +114,7 @@ module.exports = {
         },
         ' zh yy': {
             title: '音乐日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/7',
             arg: '',
             autocomplete: ' zh yy',
@@ -123,7 +123,7 @@ module.exports = {
         },
         ' zh dm': {
             title: '动漫日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/9',
             arg: '',
             autocomplete: ' zh dm',
@@ -132,7 +132,7 @@ module.exports = {
         },
         ' zh ty': {
             title: '体育日报',
-            icon: 'zh.jpg',
+            icon: 'zh.png',
             url: 'http://news-at.zhihu.com/api/4/theme/8',
             arg: '',
             autocomplete: ' zh ty',

@@ -20,7 +20,7 @@ var scrape = function(url) {
             items[index] = {
                 title: title,
                 subtitle: '',
-                icon: 'sn.jpg',
+                icon: 'sn.png',
                 uid: '',
                 arg: $(ele).find('a').attr('href')
             }
@@ -33,7 +33,7 @@ module.exports = {
     'sn': {
         ' sn latest': {
             title: 'Startup News',
-            icon: 'sn.jpg',
+            icon: 'sn.png',
             url: 'http://news.dbanotes.net/',
             arg: '',
             autocomplete: ' sn latest',

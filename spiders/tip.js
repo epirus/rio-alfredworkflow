@@ -3,7 +3,7 @@ var fs = require('fs')
 var init = [{
         title: 'V2EX',
         subtitle: 'V2EX 是一个关于分享和探索的地方',
-        icon: 'v2ex.jpg',
+        icon: 'v2ex.png',
         arg: '',
         autocomplete: ' v2ex ',
         uid: 'v2ex',
@@ -11,7 +11,7 @@ var init = [{
     }, {
         title: 'AppShopper 降价',
         subtitle: 'mac · ios 应用降价',
-        icon: 'app.jpg',
+        icon: 'app.png',
         arg: '',
         autocomplete: ' app ',
         uid: 'appshopper',
@@ -19,7 +19,7 @@ var init = [{
     }, {
         title: 'DyGod 最新电影',
         subtitle: '展示最新电影',
-        icon: 'dygod.jpg',
+        icon: 'dygod.png',
         arg: '',
         autocomplete: ' dygod ',
         uid: 'dygod',
@@ -27,7 +27,7 @@ var init = [{
     }, {
         title: 'Mp4Ba 最新电影',
         subtitle: '展示最新电视电影',
-        icon: 'mp4ba.jpg',
+        icon: 'mp4ba.png',
         arg: '',
         autocomplete: ' mp4ba ',
         uid: 'mp4ba',
@@ -45,7 +45,7 @@ var init = [{
     }, {
         title: 'Startup News',
         subtitle: 'Startup News',
-        icon: 'sn.jpg',
+        icon: 'sn.png',
         arg: '',
         autocomplete: ' sn ',
         uid: 'startupnews',
@@ -53,7 +53,7 @@ var init = [{
     }, {
         title: 'Github Trending',
         subtitle: 'github-trending',
-        icon: 'gt.jpg',
+        icon: 'gt.png',
         arg: '',
         autocomplete: ' gt ',
         uid: 'githubtrending',
@@ -62,7 +62,7 @@ var init = [{
     }, {
         title: 'Jian Dan',
         subtitle: '煎蛋以译介方式传播网络新鲜资讯',
-        icon: 'jiandan.jpg',
+        icon: 'jiandan.png',
         arg: '',
         autocomplete: ' jiandan ',
         uid: 'jiandan',
@@ -78,7 +78,7 @@ var init = [{
     }, {
         title: '糗事百科',
         subtitle: '搞笑笑话,糗事百科',
-        icon: 'qiushibaike.jpg',
+        icon: 'qiushibaike.png',
         arg: '',
         autocomplete: ' qb ',
         uid: 'qiushibaike',
@@ -86,7 +86,7 @@ var init = [{
     }, {
         title: '稀土掘金',
         subtitle: '掘金是中国质量最高的技术分享社区',
-        icon: 'juejin.jpg',
+        icon: 'juejin.png',
         arg: '',
         autocomplete: ' xt ',
         uid: 'xitujuejin',
@@ -94,7 +94,7 @@ var init = [{
     }, {
         title: '知乎日报',
         subtitle: '以独有的方式为你提供最高质、最深度、最有收获的阅读体验',
-        icon: 'zh.jpg',
+        icon: 'zh.png',
         arg: '',
         autocomplete: ' zh ',
         uid: 'zhihuribao',

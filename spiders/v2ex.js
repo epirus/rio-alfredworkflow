@@ -15,7 +15,7 @@ var scrape = function(url) {
                 subtitle: ".small.fade",
                 icon: {
                     convert: function() {
-                        return "v2ex.jpg"
+                        return "v2ex.png"
                     }
                 },
                 uid: {
@@ -40,7 +40,7 @@ module.exports = {
     'v2ex': {
         ' v2ex js': {
             title: '技术(js)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=tech',
             arg:'',
             autocomplete: ' v2ex js',
@@ -49,7 +49,7 @@ module.exports = {
         },
         ' v2ex cy': {
             title: '创意(cy)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=play',
             arg:'',
             autocomplete: ' v2ex cy',
@@ -58,7 +58,7 @@ module.exports = {
         },
         ' v2ex hw': {
             title: '好玩(hw)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=creative',
             arg:'',
             autocomplete: ' v2ex hw',
@@ -67,7 +67,7 @@ module.exports = {
         },
         ' v2ex pg': {
             title: '苹果(pg)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=apple',
             arg:'',
             autocomplete: ' v2ex pg',
@@ -76,7 +76,7 @@ module.exports = {
         },
         ' v2ex gz': {
             title: '工作(gz)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=jobs',
             arg:'',
             autocomplete: ' v2ex gz',
@@ -85,7 +85,7 @@ module.exports = {
         },
         ' v2ex cs': {
             title: '城市(cs)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=city',
             arg:'',
             autocomplete: ' v2ex cs',
@@ -94,7 +94,7 @@ module.exports = {
         },
         ' v2ex wd': {
             title: '问答(wd)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=qna',
             arg:'',
             autocomplete: ' v2ex wd',
@@ -103,7 +103,7 @@ module.exports = {
         },
         ' v2ex zr': {
             title: '最热(zr)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=hot',
             arg:'',
             autocomplete: ' v2ex zr',
@@ -112,7 +112,7 @@ module.exports = {
         },
         ' v2ex qb': {
             title: '全部(qb)',
-            icon: 'v2ex.jpg',
+            icon: 'v2ex.png',
             url: 'https://v2ex.com/?tab=all',
             arg:'',
             autocomplete: ' v2ex qb',

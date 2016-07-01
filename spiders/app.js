@@ -15,7 +15,7 @@ var scrape = function(url) {
                 subtitle: ".description",
                 icon: {
                     convert: function() {
-                        return "app.jpg"
+                        return "app.png"
                     }
                 },
                 uid: {
@@ -50,7 +50,7 @@ module.exports = {
     'app': {
         ' app ios': {
             title: 'ios 应用降价',
-            icon: 'app.jpg',
+            icon: 'app.png',
             url: 'http://appshopper.com/prices/',
             arg:'http://appshopper.com/prices/',
             autocomplete: ' app ios',
@@ -59,7 +59,7 @@ module.exports = {
         },
         ' app mac': {
             title: 'mac 应用降价',
-            icon: 'app.jpg',
+            icon: 'app.png',
             url: 'http://appshopper.com/mac/prices/',
             arg:'http://appshopper.com/mac/prices/',
             autocomplete: ' app mac',

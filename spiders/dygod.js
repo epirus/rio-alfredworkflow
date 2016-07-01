@@ -23,7 +23,7 @@ var scrape = function(url, page) {
             items[index] = {
                 title: $(ele).find('tr:nth-child(2) > td:nth-child(2) a').slice(-1).text(),
                 subtitle: $(ele).find('font').text(),
-                icon: 'dygod.jpg',
+                icon: 'dygod.png',
                 arg: 'http://www.ygdy8.net/' + $(ele).find('tr:nth-child(2) > td:nth-child(2) a').slice(-1).attr('href')
             }
         })
@@ -34,7 +34,7 @@ module.exports = {
     'dygod': {
         ' dygod latest': {
             title: '最新电影',
-            icon: 'dygod.jpg',
+            icon: 'dygod.png',
             url: 'http://www.ygdy8.net/html/gndy/dyzz/list_23_',
             arg:'',
             autocomplete: ' dygod latest',
@@ -43,7 +43,7 @@ module.exports = {
         },
         ' dygod gn': {
             title: '国内电影',
-            icon: 'dygod.jpg',
+            icon: 'dygod.png',
             url: 'http://www.ygdy8.net/html/gndy/china/list_4_',
             arg:'',
             autocomplete: ' dygod gn',
@@ -52,7 +52,7 @@ module.exports = {
         },
         ' dygod omdy': {
             title: '欧美电影',
-            icon: 'dygod.jpg',
+            icon: 'dygod.png',
             url: 'http://www.ygdy8.net/html/gndy/oumei/list_7_',
             arg:'',
             autocomplete: ' dygod omdy',
@@ -61,7 +61,7 @@ module.exports = {
         },
         ' dygod rh': {
             title: '日韩电影',
-            icon: 'dygod.jpg',
+            icon: 'dygod.png',
             url: 'http://www.ygdy8.net/html/gndy/rihan/list_6_',
             arg:'',
             autocomplete: ' dygod rh',
@@ -70,7 +70,7 @@ module.exports = {
         },
         ' dygod dm': {
             title: '动漫',
-            icon: 'dygod.jpg',
+            icon: 'dygod.png',
             url: 'http://www.ygdy8.net/html/dongman/list_16_',
             arg:'',
             autocomplete: ' dygod dm',
@@ -79,7 +79,7 @@ module.exports = {
         },
         ' dygod omds': {
             title: '欧美电视',
-            icon: 'dygod.jpg',
+            icon: 'dygod.png',
             url: 'http://www.ygdy8.net/html/tv/oumeitv/list_9_',
             arg:'',
             autocomplete: ' dygod omds',

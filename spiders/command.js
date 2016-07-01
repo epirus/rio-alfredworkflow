@@ -25,16 +25,7 @@ module.exports = {
             }
         });
     },
-    ' ->update': function() {
+    ' ->update':function(){
         exec(`git pull origin master  > /dev/null 2>&1 &`)
-        log([{
-            title: 'Rio-Reset',
-            subtitle: 'Rio已经开始更新',
-            icon: 'icon.png',
-            arg: '',
-            autocomplete: '',
-            uid: 'command',
-        }])
-
     }
 }

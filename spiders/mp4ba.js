@@ -21,7 +21,7 @@ var scrape = function(url,page) {
                 subtitle: "td:nth-child(2)>a",
                 icon: {
                     convert: function() {
-                        return "mp4ba.jpg"
+                        return "mp4ba.png"
                     }
                 },
                 uid: {
@@ -55,7 +55,7 @@ module.exports = {
     'mp4ba': {
         ' mp4ba latest': {
             title: '最新电影',
-            icon: 'mp4ba.jpg',
+            icon: 'mp4ba.png',
             url: 'http://www.mp4ba.com/index.php?page=',
             arg: '',
             autocomplete: ' mp4ba latest',
